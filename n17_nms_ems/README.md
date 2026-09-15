@@ -27,16 +27,16 @@ It can:
 
 ## Mental Model
 
+```text
 NMS
-|
-+-- EMS
-|   +-- Device
-|   +-- Device
-|
-+-- EMS
-+-- Device
-+-- Device
+├── EMS
+│   ├── Device
+│   └── Device
+└── EMS
+    ├── Device
+    └── Device
 
+```
 ## Interview Answer
 
 EMS manages individual network elements or groups of similar elements.
